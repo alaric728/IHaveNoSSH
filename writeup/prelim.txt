@@ -1,0 +1,27 @@
+HEAP OVERFLOWIN'
+
+Similar to the Stack Overflow, Heap Overflows take advantage of actions that can potentially
+violate data intregity, such as writing into a buffer or space in RAM without proper bounds
+checking, using memory without properly clearing it, or using a file whose name was stored
+in dynamically allocated RAM. 
+The Heap Overflow is an important and often overlooked security concern, even though they've
+been known and well documented vulnerability for a long time, and excellent publications like
+w00w00's Heap Overflow and the Malloc Maleficarium, there still seem to be many heap overflow
+vulnerabilities that are fairly high profile, and difficult to protect for (RE FREEBSD'S heap
+overflow!!!). 
+In this paper, I hope to cover a few varieties of the attack, and seek to give a functional
+explanation of a few of the techniques of heap overflow, as well as demo's and perhaps even a
+few diagrams if I feel up to it :).
+
+PROCEED TO DO THE BASIC HEAP OVERFLOW STUFF
+SHOW THE OVERFLOW OF A FILE DESCRIPTOR INTO A GOOD OLE' HEAP OVERFLOW TO DO A WHOIS OR START
+SHELL BECAUSE OF SUID
+
+NEXT:
+DO A LITTLE BIT MORE SOPHISTICATED, USING EXECUTABLE HEAP
+
+NEXT: 
+DO A QUICK RUNDOWN OF THE FREEBSD HEAP OVERFLOW THAT WAS KIND OF A BIG DEAL
+
+It's okay to steal for w00w00 and the malloc maleficarium and such, since they are important
+JUST GIVE CREDIT WHERE CREDIT IS DUE
